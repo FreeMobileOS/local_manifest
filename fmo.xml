@@ -261,7 +261,7 @@
 
     <!-- system -->
     <project path="system/core" name="platform_system_core" remote="fmogl" revision="fmo-mido-8.1.0_r4" />
-    <project path="system/bt" name="platform_system_bt" remote="fmogl" revision="fmo-mido-8.1.0_r4" />
+	<project path="system/bt" name="platform_system_bt" remote="fmo" revision="fmo-mido-8.1.0_r4" />
 
     <!-- vendor -->
     <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="fmo" revision="fmo-8.1.0-mido-stagging" />
