@@ -74,6 +74,7 @@
     <remove-project name="platform/hardware/qcom/display" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/qcom/bt" />
+    <remove-project name="platform/hardware/qcom/gps" />
 
     <!-- General repos -->
     <remove-project name="platform/build" />
@@ -133,13 +134,13 @@
     <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-16.0-caf-8996" />
     <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" remote="github" revision="staging/lineage-15.1" />
 
-	<project path="hardware/qcom/display/msm8996" name="android_hardware_qcom_display-caf" remote="fmo" revision="fmo-caf-8996" />
+    <project path="hardware/qcom/display/msm8996" name="android_hardware_qcom_display-caf" remote="fmo" revision="fmo-caf-8996" />
     <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="fmo" revision="fmo-9" />
 
     <!-- vendor -->
     <project path="vendor/aosp" name="vendor_aosp" remote="fmo" revision="fmo-8.1.0" />
-    <project path="vendor/extras" name="vendor_extras" remote="fmo" revision="fmo-8.1.0" />
-    <project path="vendor/fmo" name="vendor_fmo" remote="fmo" revision="fmo-8.1.0"/>
+    <project path="vendor/extras" name="vendor_extras" remote="fmo" revision="fmo-9" />
+    <project path="vendor/fmo" name="vendor_fmo" remote="fmo" revision="master"/>
     <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-16.0"/>
     <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-16.0" />
     <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-16.0" />
@@ -147,7 +148,7 @@
         <copyfile src="Android.bp" dest="vendor/qcom/opensource/Android.bp" />
     </project>
 
-	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="fmo" revision="fmo-8.1.0-mido-stagging" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="fmo" revision="fmo-9" />
 
     <!-- general repos -->
      <project path="build/make" name="platform_build" remote="fmo" revision="fmo-9" >
